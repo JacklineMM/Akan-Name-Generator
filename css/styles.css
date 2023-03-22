@@ -32,5 +32,8 @@ body {
 
 #akan-name {
     font-family: 'Times New Roman', Times, serif;
-    
+    background-color: rgb(34, 206, 206);
+    margin: 13px;
+    box-shadow: 10px 10px 5px 12px rgb(10, 32, 39);
+
 }
