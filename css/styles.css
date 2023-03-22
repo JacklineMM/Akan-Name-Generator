@@ -35,5 +35,6 @@ body {
     background-color: rgb(34, 206, 206);
     margin: 13px;
     box-shadow: 10px 10px 5px 12px rgb(10, 32, 39);
+    max-width: 300%;
 
 }
