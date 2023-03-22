@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(43, 214, 226);
+    color: black;
+    text-align: center;
+    padding: 4px;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(241, 50, 197);
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    background-color: rgb(241, 50, 197);
+}
+
+.description {
+    width: 700px;
+    font-size: medium;
+}
+
+.form {
+    float: right;
+    background-color: rgb(11, 219, 219);
+    align-items: center;
+    width: 500px;
+    box-shadow: 10px 10px 5px 12px rgb(10, 32, 39);
+}
+
+#akan-name {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
