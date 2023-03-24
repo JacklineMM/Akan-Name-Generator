@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Name Generator</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script defer src="index.js"></script>
+    
 </head>
 <body>
     <header>
@@ -17,29 +17,51 @@
             <tr>
                 <td>
                     <div class="description">
-                        <h2>description</h2>
-                        <p>This is a web application that generates your Akan name which is a name derives from the Ghanaian culture. All you have to do is select your date of birth and gender and voila, there is your Akan name</p>
+                        <h2>Description</h2>
+                        <p>This is a web application that generates your Akan name which is a name derived from the Ghanaian culture. All you have to do is select your date of birth and gender and voila, there is your Akan name</p>
                     </div>
                 </td>
                 <td>
                     <div class="form">
-                        <form >
-                            <label for="birthDate">Date of Birth:</label>
-                            <input type="date" id="birthdate" name="birthdate" placeholder="DD-MM-YYYY" required pattern="\d{2}-\d{2}-\d{4}"> >
+                        <p>To find out what your Akan name fill the form below and click generate name button.</p>
+                        <form class="myform" onsubmit="return getAkanName()">
+                            <label for="year-of-birth">
+                                year:
+                                <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+                            </label>
+                            <Label for="month-of-birth">
+                                Month:
+                                <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+                            </Label>
                             <br><br>
-                            <label for="male">Male</label>
-                            <input type="radio" id="male" name="gender" value="male">
-                            <label for="female">Female</label>
-                            <input type="radio" id="female" name="gender" value="female"><br>
+                            <Label for="day-of-birth">
+                                Day:
+                                <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+                            </Label>
+                            <br>
+                            <Label for="gender">
+                                <p>Select your gender</p>
+                                Male:
+                                <input id="male-input" type="radio" name="gender" value="male" required>
+                                Female:
+                                <input id="female-input" type="radio" name="gender" value="female" required>
+                            </Label>
                             <br><br>
-                            <button id="assign">Assign name</button>
+                            <input id="get-name" type="submit" name value="Generate name">
+                            <br><br>
+                        </form>
+                        <form onsubmit="return clearInput()">
+                        <input  class="clear" type="submit" value="Clear input">
                         </form>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <h3  style="color: rgb(10, 7, 7);" id="result"></h3>
+                    <h3 style="color: rgb(10, 7, 7) font sans-serif;" id="display-name">
+                        <strong>Your Akan name will be displayed here</strong>
+                    </h3>
+                    <p id="result"></p>
                 </td>
             </tr>
         </table>
@@ -47,6 +69,6 @@
 
     </div>
     
-    
+    <script src="index.js"></script>
 </body>
 </html>

@@ -19,7 +19,7 @@ body {
 
 .description {
     width: 700px;
-    font-size: medium;
+    font-size: larger;
 }
 
 .form {
@@ -27,6 +27,6 @@ body {
     background-color: rgb(11, 219, 219);
     align-items: center;
     width: 500px;
-    box-shadow: 10px 10px 5px 12px rgb(10, 32, 39);
+    box-shadow: 10px 8px 5px 8px rgb(10, 32, 39);
 }
 
