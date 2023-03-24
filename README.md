@@ -6,8 +6,8 @@
 ## Setup/Installation Requirements
 { All you need is an electronic device with a web browser such as chrome, opera mini, explorer, firefox or safari installed and a stable  internet connectivity. }
 
-## Known Bugs
-{There are no known bugs. }
+## BDD
+{![program behaviour](./images/BDD.png) }
 ## Technologies Used
 {The technologies used wer HTML, CSS and JAVASCRIPT.}
 ## Support and contact details
