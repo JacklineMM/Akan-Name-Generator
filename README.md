@@ -6,7 +6,7 @@ This is a web application where you select the date of your birth and gender. On
 ## Setup/Installation Requirements
  All you need is an electronic device with a web browser such as chrome, opera mini, explorer, firefox or safari installed and a stable  internet connectivity. 
 
-The URL is git@github.com:JacklineMM/Akan-Name-Generator.git
+The URL is https://github.com/JacklineMM/Akan-Name-Generator
 
 ## BDD
 ![program behaviour](./images/BDD.png) 
